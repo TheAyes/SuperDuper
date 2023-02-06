@@ -1,7 +1,3 @@
-![Build Status](https://gitlab.com/%{project_path}/badges/%{default_branch}/build.svg)
-
----
-
 Example plain HTML site using GitLab Pages.
 
 Learn more about GitLab Pages at https://pages.gitlab.io and the official
