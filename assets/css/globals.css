@@ -1,0 +1,122 @@
+:root{
+	/* Html */
+	--foundation-color: #111111;
+
+	/* Headline 1 */
+	--h1-color: #fff;
+	--h1-background-color: rgba(0, 0, 0, 0);
+
+	/* Headline 2 */
+	--h2-color: #fff;
+	--h2-background-color: rgba(0, 0, 0, 0);
+
+	/* Headline 3 */
+	--h3-color: #c0c0c0;
+	--h3-background-color: rgba(0, 0, 0, 0);
+
+	/* Paragraphs */
+	--paragraph-color: #c0c0c0;
+	--paragraph-background-color: rgba(0, 0, 0, 0);
+
+	/* Links */
+	--link-color: #c0c0c0;
+	--link-color-hovered: #fff;
+	--link-hovered-style: none;
+
+	/* Buttons */
+	--button-text-color: #ffa500;
+	--button-border-color: #ffa500;
+	--button-background-color: rgba(255, 165, 0, 0.1);
+
+	--button-text-color-hovered: #ffa500;
+	--button-border-color-hovered: #ffa500;
+	--button-background-color-hovered: rgba(255, 165, 0, 0.4);
+}
+
+html {
+	color: var(--paragraph-color);
+	background-color: var(--foundation-color);
+
+	scroll-behavior: smooth;
+
+	padding: 0;
+
+	/*font-family: Mukta, monospace;*/
+}
+
+body * {
+	border-radius: 4px;
+}
+
+body header {
+	border-radius: 0;
+}
+
+body main {
+	border-radius: 0;
+}
+
+body main {
+	border-radius: 0;
+}
+
+/* Headers */
+
+h1 {
+	color: var(--h1-color);
+	background-color: var(--h1-background-color);
+
+	/* font-family: GildaDisplay, sans-serif;*/
+	line-height: 36px;
+
+	padding: 4px;
+	margin: 0;
+}
+
+h2 {
+	color: var(--h2-color);
+	background-color: var(--h2-background-color);
+
+	/* font-family: GildaDisplay, sans-serif;*/
+	line-height: 32px;
+
+	padding: 4px;
+	margin: 0;
+}
+
+h3 {
+	color: var(--h3-color);
+	background-color: var(--h3-background-color);
+
+	/*font-family: GildaDisplay, sans-serif;*/
+	line-height: 28px;
+
+	padding: 4px;
+	margin: 0;
+}
+
+p {
+	color: var(--paragraph-color);
+	background-color: var(--paragraph-background-color);
+
+	font-family: MavenPro, sans-serif;
+
+	padding: 4px;
+	margin: 0;
+}
+
+a {
+	color: var(--link-color);
+
+	font-family: MavenPro, sans-serif;
+
+	padding: 4px;
+	margin: 0;
+
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--link-color-hovered);
+	text-decoration: var(--link-hovered-style);
+}

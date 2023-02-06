@@ -1,0 +1,107 @@
+.site-logo {
+	font-size: 16px;
+	letter-spacing: 8px;
+	line-height: 8px;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #272627;
+	padding: 8px;
+}
+
+header h1{
+	font-family: MavenPro, sans-serif;
+	line-height: 20px;
+}
+
+.header-image {
+
+	padding: 4px;
+	margin: 150px auto;
+
+	background-image: linear-gradient(to top right, blue, white);
+	width: 160px
+}
+
+.header-image h2 {
+	font-family: GildaDisplay, sans-serif;
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.header-image p {
+	font-size: 10px;
+}
+
+.header-navigation {
+	text-align: right;
+}
+
+.header-navigation nav ul {
+	display: block;
+	list-style: none;
+	font-size: 16px;
+}
+
+main {
+
+	background-color: white;
+}
+.main--stuff-we-did{
+	padding: 50px;
+}
+
+.main--stuff-we-did h2 {
+	font-family: sans-serif;
+	line-height: 110px;
+	font-size: 150px;
+
+	color: #f0f0ff;
+}
+
+.main--stuff-we-did h3 {
+	color: #000;
+	font-size: 50px;
+
+	margin-bottom: 40px;
+}
+
+.main--stuff-we-did article {
+
+	width: 400px;
+}
+
+.main--stuff-we-did article p {
+	color: #000;
+}
+
+.main--swd-image section {
+	width: 70vw;
+	margin: 0 auto;
+}
+
+.main--swd-image img{
+	display: block;
+	width: 70vw;
+
+	margin: 500px auto 0 auto;
+}
+
+.main--swd-image h3 {
+	padding: 32px 0 0 0;
+	font-size: 32px;
+	color: #000;
+}
+
+.main--swd-image h4 {
+	color: #000;
+	margin: 16px 0 0 0;
+
+	font-family: MavenPro, sans-serif;
+	font-weight: normal;
+}
+
