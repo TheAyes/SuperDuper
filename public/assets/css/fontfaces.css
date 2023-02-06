@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Mukta";
+	src: url("../fonts/Mukta-Regular.ttf");
+}
+
+@font-face {
+	font-family: "MavenPro";
+	src: url("../fonts/MavenPro-VariableFont_wght.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GildaDisplay";
+	src: url("../fonts/GildaDisplay-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
